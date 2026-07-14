@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254728793321",
+    "project_id": "faceattendancesystem-5fce9",
+    "storage_bucket": "faceattendancesystem-5fce9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254728793321:android:8eb5e532bc3bbca8705478",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaMLjeK9sLJArL0yemvXqNOAjoMBLxU3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

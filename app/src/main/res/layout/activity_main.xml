@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/deep_navy">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Face Attendance System"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/soft_white"
+        android:gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Secure Face Verification"
+        android:textSize="15sp"
+        android:textColor="@color/cool_gray"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher Login"
+        android:textColor="@color/soft_white"
+        android:textStyle="bold"
+        android:background="@drawable/bg_primary_button"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Login"
+        android:textColor="@color/soft_white"
+        android:textStyle="bold"
+        android:background="@drawable/bg_primary_button" />
+    <Button
+        android:id="@+id/btnStudentRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Registration"
+        android:textColor="@color/soft_white"
+        android:textStyle="bold"
+        android:background="@drawable/bg_primary_button"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

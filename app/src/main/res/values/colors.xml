@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="deep_navy">#0F172A</color>
+    <color name="slate_dark">#1E293B</color>
+    <color name="midnight_blue">#273549</color>
+    <color name="indigo_blue">#6366F1</color>
+    <color name="royal_purple">#8B5CF6</color>
+    <color name="emerald_green">#22C55E</color>
+    <color name="amber">#F59E0B</color>
+    <color name="crimson_red">#EF4444</color>
+    <color name="soft_white">#F8FAFC</color>
+    <color name="cool_gray">#CBD5E1</color>
+    <color name="slate_border">#334155</color>
+</resources>

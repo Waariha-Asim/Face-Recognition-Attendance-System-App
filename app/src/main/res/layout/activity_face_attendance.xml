@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/deep_navy"
+    android:padding="14dp">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/slate_dark" />
+
+    <TextView
+        android:id="@+id/txtFaceStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera Ready"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/soft_white"
+        android:gravity="center"
+        android:background="@drawable/bg_dark_card"
+        android:padding="16dp"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

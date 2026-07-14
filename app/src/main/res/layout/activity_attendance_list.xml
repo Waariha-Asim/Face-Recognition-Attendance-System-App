@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/deep_navy"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attendance Records"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/soft_white"
+        android:gravity="center"
+        android:padding="14dp"
+        android:background="@drawable/bg_dark_card"
+        android:layout_marginBottom="14dp" />
+
+    <ListView
+        android:id="@+id/listAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/slate_border"
+        android:dividerHeight="1dp"
+        android:background="@drawable/bg_dark_card"
+        android:padding="8dp" />
+
+</LinearLayout>
